@@ -1,0 +1,31 @@
+.section3__all{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   &__top{
+    width: 100px;
+    height: 2px;
+    background-color: orangered;
+   } 
+   &__middle{
+    font-size: 30px;
+    margin-top: 40px;
+   }
+   &__right{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+   margin-left: 50px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 50px;
+    p{
+        color: gray;
+    }
+    img{
+        width: 50px;
+        height: 50px;
+    }
+   }
+}
